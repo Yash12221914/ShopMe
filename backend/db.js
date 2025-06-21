@@ -18,8 +18,8 @@ const mongoDB = async () => {
         fetched_data.find({}).toArray( function( err,data){
             if(err) console.log(err);
             else {
-                global.cloth_item = data;
-                console.log(global.cloth_item);
+                global.cloth_items = data;
+                console.log(global.cloth_items);
             }
 
         })

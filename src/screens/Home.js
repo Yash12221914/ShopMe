@@ -9,7 +9,7 @@ export default function Home() {
     <div>
       <div><Navbar /></div>
       <div><Carousal/></div>
-        <div className='m-3'>
+        <div className='flex flex-wrap gap-3 m-3'>
           <Card />
           <Card />
           <Card />
